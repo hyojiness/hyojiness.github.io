@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "ko-KR"
@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name: "Hyojin Lee"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/avatar01.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Junior front-end developer."
   location: "South Korea"
   email:
@@ -114,7 +114,7 @@ author:
       url: "mailto:dlgywls1130@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://dlgywls1130.github.com"
+      url: "https://dlgywls1130.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hyojiness"
@@ -235,6 +235,10 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # HTML Compression
 # - https://jch.penibelst.de/
