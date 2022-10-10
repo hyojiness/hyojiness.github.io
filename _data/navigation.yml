@@ -6,18 +6,18 @@ main:
     url: /portfolio/
   - title: "Study"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
+  # - title: "Tag"
+  #   url: /tags/
   - title: "Search"
     url: /search/
 
 docs:
   - title: "Study"
     children:
-      - title: "Study"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+      - title: "React"
+        url: /react/
+      - title: "Javascript"
+        url: /javascript/
 
   - title: "etc"
     children:
